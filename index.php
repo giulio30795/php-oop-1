@@ -24,7 +24,6 @@ class Movie {
         $this->anno = $anno;
         $this->genere = $genere;
         $this->getPrice();
-
     }
 }
 
@@ -32,7 +31,6 @@ class Movie {
 $film1 = new Movie('Shining ', 1980 , 'Thriller',);
 $film2 = new Movie('Arancia Meccanica ', 1971 , 'Thriller');
 $film3 = new Movie('Full Metal Jacket ', 1987 , 'Guerra',);
-
 
 var_dump($film1, $film2, $film3);
 
